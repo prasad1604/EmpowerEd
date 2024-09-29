@@ -44,6 +44,7 @@ body {
   border-radius: .25em;
   cursor: pointer;
   user-select: none;
+  border: 1px solid hsl(var(--hue, 25), var(--saturation, 60%), calc(var(--lightness, 40%) - 70%));
 }
 
 .key.large {
